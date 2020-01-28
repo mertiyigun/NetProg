@@ -1,0 +1,7 @@
+//Only change value of "x", and see the ip address of specific POP location
+***************************************************************************
+
+ip_address={"Istanbul":"192.168.1.34", "London":"10.10.10.10", "Berlin":"20.20.20.20", "Madrid":"30.30.30.30"}
+
+x="Istanbul"
+print ("{n} POP Router's ip address is: {i}".format(n=str(x), i=ip_address[str(x)])
